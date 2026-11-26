@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: campusflow
+    runtime: docker
+    plan: free
+    autoDeploy: true
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: RATE_LIMIT_MAX
+        value: 60

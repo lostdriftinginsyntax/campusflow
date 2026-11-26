@@ -1,0 +1,8 @@
+*.pdf
+*.docx
+*.html
+tests/
+campusflow.db*
+capture.js
+.git
+node_modules
